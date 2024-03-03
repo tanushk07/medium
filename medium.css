@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+}
+.navigationbar{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    background-color: rgba(255,192,23,255);
+    align-items: center;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 100px;
+    z-index: 1000;
+    
+}
+.mediumlogo{
+    background-size: cover;
+    background-image:url("medium.png");
+    width: 161px;
+    height: 30px;
+    
+}
+.freespace{
+    width: 614px;
+    height: 25px;
+}
+.navcontents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 25px;
+    width: 416px;
+}
+.getstartedbox{
+    background-color: black;
+    height:37px;
+    width: 103px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 100px;
+}
+.getstartedbutton{
+    background-color: black;
+    color: white;
+    font-weight: 550;
+    border: none;
+}
+.a{
+    color: black;
+}
+.midpage{
+    width: 100%;
+    /* margin-top: 76.8px; */
+    height: 454px;
+    background-color:rgba(255,192,23,255);
+    display: flex;
+}
+.midcontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lefthalf{
+    
+    width: 540px;
+    padding-left: 11%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.righthalf{
+    padding-left: 380px;
+    width: 585px;
+    background: cover;
+    background-image: url("MMM.png");
+}
+.texts{
+    width: 550px;
+    height:454px;
+    box-sizing: border-box;
+    padding-top: 93px;
+    padding-bottom: 92px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.stayserious{
+    font-size: 100px;
+    /* width: 550px;
+    height: 95px; */
+    padding-bottom:30px;
+    font-weight: 400;
+}
+.discover{
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    box-sizing: content-box;
+}
+.startreadingbutton{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    height:42px;
+    width: 213px;
+    font-weight: bold;
+    font-size: large;
+}
+.startreading{
+    height: 42px;
+}
