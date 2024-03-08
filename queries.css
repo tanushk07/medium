@@ -1,35 +1,132 @@
-@media((max-width: 1200px) and (min-width:1100px)) {
-    .midpage{
-        flex-wrap: wrap;
-    }
-    .secondhalf{
-        flex-wrap: wrap;
-        
-    }
-    .navigationbar{
-        justify-content: space-between;
-
-    }
-    .secondhalf_contentbox{
-        
-       flex-wrap: wrap;
-       flex-direction: row;
-       height: fit-content;
-       justify-content: center;
-        
-    }
-    .xyz{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
+@media((max-width: 1200px)){
     .thirdhalf{
         flex-wrap: wrap;
+        height: 1450px;
     }
     .thirdhalf_righthalf{
-        margin-top: 50px;
+        margin-top: 40px;
+    }
+}
+@media((max-width:1140px)){
+    .secondhalf{
+        flex-wrap: wrap;
+    }
+    .secondhalf_contentbox{
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: auto;
+    }
+}
+@media(max-width:1000px){
+    .navcontents{
+        display: none;
+    }
+    .checkbox{
+        display: flex;
+    }
+}
+@media((max-width:755px)){
+    .secondhalf_contentbox{
+        width: auto;
+    }
+    .midcontainer{
+        width: auto;
+        height: auto;
+    }
+    .gap{
+        display: none;
+    }
+    .photo{
+        display: none;
+    }
+    .secondhalf{
+        height: auto;
+        width: auto;
+        justify-content: center;
+    }
+    
+    .xyz{
+        justify-content: center;
+        width: auto;
+    }
+    .thirdhalf{
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .thirdhalf_lefthalf{
+        width: auto;
+    }
+    .thirdhalf_righthalf{
+        width: auto;
+    }
+    .boxtype2{
+        width: auto;
+    }
+    .midcontainer{
+        width: auto;
+    }
+    
+    .freespace{
+        display: none;
+    }
+    .lefthalf{
+        width: auto;
+    }
+    .righthalf{
+        width: auto;
+    }
+    .texts{
+        width: auto;
+        height: auto;
+        
+    }
+    .stayserious{
+        font-size: 15vw;
+    }
+    .discover{
+        font-size: 4vw;
+    }
+    
+    .inner{
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .boxes{
+        height: auto;
     }
     .down{
-        padding: none;
+        width: auto;
+        height: auto;
+    }
+    .midpage{
+        width: auto;
+    }
+}
+@media(max-width:430px){
+    .checkbox{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .thirdhalf_lefthalf{
+        justify-content: center;
+        margin-left:30px;
+    }
+    .name{
+        font-size: 3vw;
+    }
+    .maintext2{
+        font-size: 4.5vw;
+    }
+    .thirdhalf_righthalf{
+        height: auto;
+        margin: 10px;
+        justify-content: center;
+    }
+    .up{
+        height: auto;
     }
 }

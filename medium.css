@@ -16,6 +16,9 @@ html{
     justify-content: space-evenly;
     
 }
+.checkbox{
+    display: none;
+}
 .mediumlogo{
     background-size: cover;
     background-image:url("medium.png");
@@ -81,15 +84,13 @@ html{
 }
 
 .righthalf{
-
-    
+    z-index: 1;
     width: 585px;
     background: cover;
     background-image: url("MMM.png");
 }
 .texts{
     width: 550px;
-    
     text-align: left;
 }
 .stayserious{
@@ -134,19 +135,17 @@ html{
     color: #f2f2f2;
     margin-right: 16px;
 }
-.xyz{
+/* .xyz{
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
+} */
 .secondhalf{
     height: 348px;
-    box-sizing: border-box;
     display: flex;
     justify-content:center;
     margin-top: 40px;
     margin-bottom: 16px;
-
 }
 /* .secondhalf_content{
    
@@ -197,7 +196,7 @@ a{
     justify-content: center;
 }
 .thirdhalf_lefthalf{
-    width: 695px;
+    /* width: 695px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
