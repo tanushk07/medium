@@ -1,5 +1,35 @@
-@media(min-width: 1200) {
+@media((max-width: 1200px) and (min-width:1100px)) {
     .midpage{
         flex-wrap: wrap;
+    }
+    .secondhalf{
+        flex-wrap: wrap;
+        
+    }
+    .navigationbar{
+        justify-content: space-between;
+
+    }
+    .secondhalf_contentbox{
+        
+       flex-wrap: wrap;
+       flex-direction: row;
+       height: fit-content;
+       justify-content: center;
+        
+    }
+    .xyz{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .thirdhalf{
+        flex-wrap: wrap;
+    }
+    .thirdhalf_righthalf{
+        margin-top: 50px;
+    }
+    .down{
+        padding: none;
     }
 }
