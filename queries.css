@@ -54,7 +54,9 @@
         display: none;
     }
     .photo{
-        display: none;
+        width: auto;
+        height: auto;
+        margin: 10px;
     }
     .secondhalf{
         height: auto;
@@ -80,6 +82,7 @@
     }
     .boxtype2{
         width: auto;
+        margin: 10px;
     }
     
     .freespace{
