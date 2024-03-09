@@ -100,9 +100,10 @@
         font-size: 20vw;
     }
     .discover{
-        font-size: 6vw;
+        margin-left: 10px;
+        font-size: 5vw;
+        
     }
-    
     .inner{
         width: auto;
         height: auto;
@@ -110,17 +111,22 @@
     }
     .boxes{
         height: auto;
+        justify-content: left;
     }
     .down{
         width: auto;
         height: auto;
+        justify-content: center;
     }
     .midpage{
         width: auto;
         height: fit-content;
     }
 }
-@media(max-width:430px){
+@media(max-width:431px){
+    .thirdhalf{
+        height: auto;
+    }
     .checkbox{
         display: block;
         width: auto;
@@ -146,5 +152,8 @@
     }
     .secondhalf_heading1{
         margin-left: 20px;
+    }
+    .box{
+        width: auto;
     }
 }
