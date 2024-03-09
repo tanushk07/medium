@@ -18,7 +18,24 @@
     }
 }
 @media(max-width:1000px){
+    .navigationbar{
+        display: flex;
+        justify-content:space-evenly;
+
+    }
     .navcontents{
+        width: auto;
+    }
+    .ourstory{
+        display: none;
+    }
+    .membership{
+        display: none;
+    }
+    .write{
+        display: none;
+    }
+    .signin{
         display: none;
     }
     .checkbox{
@@ -64,9 +81,6 @@
     .boxtype2{
         width: auto;
     }
-    .midcontainer{
-        width: auto;
-    }
     
     .freespace{
         display: none;
@@ -83,10 +97,10 @@
         
     }
     .stayserious{
-        font-size: 15vw;
+        font-size: 20vw;
     }
     .discover{
-        font-size: 4vw;
+        font-size: 6vw;
     }
     
     .inner{
@@ -103,6 +117,7 @@
     }
     .midpage{
         width: auto;
+        height: fit-content;
     }
 }
 @media(max-width:430px){
@@ -128,5 +143,8 @@
     }
     .up{
         height: auto;
+    }
+    .secondhalf_heading1{
+        margin-left: 20px;
     }
 }
