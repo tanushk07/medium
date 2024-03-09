@@ -11,6 +11,8 @@
     position: fixed;
     box-sizing: border-box;
     width: 100%;
+    padding-bottom: 100px;
+    z-index: 1000;
     
 }
 .checkbox{
@@ -19,11 +21,9 @@
 .mediumlogo{
     background-size: cover;
     background-image:url("medium.png");
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 161px;
-    height: 40px;
-    box-sizing: inherit;
+    height: 30px;
+    
 }
 .freespace{
     width: 614px;
@@ -52,30 +52,29 @@
     color: white;
     font-weight: 550;
     border: none;
-    cursor: pointer;
 }
 .a{
     color: black;
 }
 .midpage{
     width: 100%;
-    padding-top: 76.8px;
-    height: 530px;
+    /* margin-top: 76.8px; */
+    height: 454px;
     background-color:rgba(255,192,23,255);
     display: flex;
-    box-sizing: border-box;
 }
 .midcontainer{
     display: flex;
     justify-content: space-evenly;
-    box-sizing: border-box;
 }
 .lefthalf{
+    
     width: 540px;
     padding-left: 11%;
     align-items: center;
     justify-content: center;
     display: flex;
+    
 }
 
 .righthalf{
@@ -90,7 +89,16 @@
 }
 .texts{
     width: 550px;
+<<<<<<< HEAD
+=======
+    height:454px;
+    box-sizing: border-box;
+    padding-top: 93px;
+    padding-bottom: 92px;
+>>>>>>> parent of 7295b91 (updated)
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 .stayserious{
     font-size: 100px;
@@ -114,11 +122,11 @@
     width: 213px;
     font-weight: bold;
     font-size: large;
-    cursor: pointer;
 }
 .startreading{
     height: 42px;
 }
+<<<<<<< HEAD
 .order{
     border: 1px solid black;
 }
@@ -289,3 +297,5 @@ a{
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
 }
+=======
+>>>>>>> parent of 7295b91 (updated)
