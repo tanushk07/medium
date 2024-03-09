@@ -1,9 +1,6 @@
 *{
     margin: 0;
 }
-html{
-    overflow-x: hidden;
-}
 .navigationbar{
     height: 76px;
     display: flex;
@@ -11,9 +8,9 @@ html{
     border-bottom: 1px solid black;
     background-color: rgba(255,192,23,255);
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
     box-sizing: border-box;
-    justify-content: space-evenly;
+    width: 100%;
     
 }
 .checkbox{
@@ -70,9 +67,7 @@ html{
 }
 .midcontainer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: space-evenly;
     box-sizing: border-box;
 }
 .lefthalf{
@@ -84,7 +79,11 @@ html{
 }
 
 .righthalf{
+<<<<<<< HEAD
     z-index: 1;
+=======
+    padding-left: 380px;
+>>>>>>> parent of eeea45c (updated)
     width: 585px;
     background: cover;
     background-image: url("MMM.png");
@@ -147,17 +146,18 @@ html{
     margin-top: 40px;
     margin-bottom: 16px;
 }
-/* .secondhalf_content{
-   
+.secondhalf_content{
+    width: 1328px;
+    height: 100%;
     display: flex;
     justify-content: center;
-} */
+}
 .secondhalf_contentbox{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     align-items: center;
     height: 247px;
+    width: 1192px;
 }
 .secondhalf_heading1{
     margin-bottom: 16px;

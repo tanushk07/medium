@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media((max-width: 1200px)){
     .thirdhalf{
         flex-wrap: wrap;
@@ -128,5 +129,10 @@
     }
     .up{
         height: auto;
+=======
+@media(min-width: 1200) {
+    .midpage{
+        flex-wrap: wrap;
+>>>>>>> parent of eeea45c (updated)
     }
 }
